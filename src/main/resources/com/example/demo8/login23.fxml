@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" blendMode="COLOR_DODGE" prefHeight="606.0" prefWidth="423.0" spacing="20.0" style="-fx-border-color: blue;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo9.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <ImageView fitHeight="105.0" fitWidth="109.0">
+      <image>
+         <Image url="@../../../Downloads/facebooki-removebg-preview.png" />
+      </image>
+   </ImageView>
+
+    <Label fx:id="welcomeText" />
+   <Label prefHeight="59.0" prefWidth="178.0" style="-fx-background-radius: o;" text="Facebook" textAlignment="CENTER">
+      <font>
+         <Font size="41.0" />
+      </font>
+      <VBox.margin>
+         <Insets />
+      </VBox.margin>
+   </Label>
+   <Label prefHeight="18.0" prefWidth="201.0" text="Please enter your email and password">
+      <font>
+         <Font name="System Italic" size="12.0" />
+      </font>
+   </Label>
+   <TextField alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="26.0" prefWidth="238.0" promptText="Email" style="-fx-border-color: lightblue;" />
+   <TextField alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" opacity="0.53" prefHeight="26.0" prefWidth="238.4" style="-fx-border-color: lightblue;" text="password">
+      <cursor>
+         <Cursor fx:constant="DISAPPEAR" />
+      </cursor>
+   </TextField>
+   <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="144.0" style="-fx-background-color: transparent;" text="Forgot password">
+      <VBox.margin>
+         <Insets left="90.0" />
+      </VBox.margin>
+   </Button>
+   <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="238.4" style="-fx-background-color: skyblue;" text="Login" />
+   <HBox prefHeight="40.0" prefWidth="383.0">
+      <children>
+         <Label prefHeight="18.0" prefWidth="126.0" text="Not remember yet?" />
+         <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="Create new account">
+            <HBox.margin>
+               <Insets left="100.0" />
+            </HBox.margin>
+         </Button>
+      </children>
+   </HBox>
+</VBox>

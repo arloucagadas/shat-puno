@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="379.0" prefWidth="426.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="249.0" fitWidth="426.0">
+         <image>
+            <Image url="@../../../IdeaProjects/cagadasyoutube/src/main/java/com/example/cagadasyoutube/Screenshot%202025-03-27%20125810.png" />
+         </image>
+      </ImageView>
+      <Label prefHeight="18.0" prefWidth="429.0" text="Unang Tikim - Trailer (Angeli Khang, Robb Guinto) | Vista Cinemas (2024)" textFill="WHITE" />
+      <HBox prefHeight="25.0" prefWidth="426.0">
+         <children>
+            <ImageView fitHeight="23.0" fitWidth="36.0">
+               <image>
+                  <Image url="@../../../Downloads/profilecagadas-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="25.0" prefWidth="387.0" text="ARLOU CENIMAS       490.29K subscribers•87K videos" textFill="WHITE" />
+         </children>
+      </HBox>
+      <Label prefHeight="18.0" prefWidth="423.0" text=" A  new wave of cinema experience is available at Vista Cinemas #WeDefyStanda" textFill="WHITE" />
+      <HBox prefHeight="30.0" prefWidth="426.0">
+         <children>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: red;" text="Subscribe">
+               <HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" style="-fx-background-color: skyblue;" text="Like">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" style="-fx-background-color: white;" text="Share">
+               <HBox.margin>
+                  <Insets left="75.0" right="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" style="-fx-background-color: white;" text="Download">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="35.0" prefWidth="426.0">
+         <children>
+            <ImageView fitHeight="32.0" fitWidth="38.0">
+               <image>
+                  <Image url="@../../../Downloads/comments-removebg-preview%20(1).png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="18.0" prefWidth="381.0" text="Noong napanood koto dami kunang anak ngayun............." textFill="#efefef">
+               <font>
+                  <Font name="Calibri" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</VBox>
